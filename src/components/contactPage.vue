@@ -8,7 +8,7 @@
     <div class="text">
         Additional information regarding professional experience and education, please refer to my <a href="https://www.linkedin.com/in/stacey-jin">LinkedIn</a> profile.
         <br/>
-        Contact can also be made through my profile.
+        Contact can also be made through my LinkedIn profile.
     <br/>    
     <br/>
         For further reference, including links to work and projects, my <u>resume</u> is available for download. 
