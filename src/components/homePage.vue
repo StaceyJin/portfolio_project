@@ -1,7 +1,7 @@
 <template>
     <h1>Portfolio Home Page</h1>
     <div>
-        introductory content here
+        <!-- introductory content here -->
     </div>
 </template>
 

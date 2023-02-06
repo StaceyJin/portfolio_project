@@ -4,6 +4,7 @@
     <router-link :to="{ name: 'AboutMe'}">About Me</router-link>
     <router-link :to="{ name: 'Skills'}">Skills & Employment</router-link>
     <router-link :to="{ name: 'NewlyAcquired'}">Newly Acquired</router-link>
+    <router-link :to="{ name: 'Contact'}">Contact</router-link>
   </nav>
 </template>
 

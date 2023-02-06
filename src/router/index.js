@@ -3,6 +3,7 @@ import homePage from "@/components/homePage"
 import aboutMePage from "@/components/aboutMePage"
 import skillsPage from "@/components/skillsPage"
 import newlyAcquiredPage from "@/components/newlyAcquiredPage"
+import contactPage from "@/components/contactPage"
 
 const routes = [
     {
@@ -24,6 +25,11 @@ const routes = [
         path: "/newlyAcquired",
         name: "NewlyAcquired",
         component: newlyAcquiredPage
+    },
+    {
+        path: "/contact",
+        name: "Contact",
+        component: contactPage
     }
 ];
 
