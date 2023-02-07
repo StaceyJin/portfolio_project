@@ -60,7 +60,9 @@
     <br/>
     <div>
      <h4>Web Design and User Interface Experience</h4>
-<p><img class="left" src="@/assets/website_screencap.jpg" width="50%" height="50%"/>One of the first courses I had taught HTML, CSS and how to create and design a functional user   interface. I really enjoyed the balance of visual design and programming using tags while learning about internet protocols and communication. For this course’s final project I created a web page sharing some favourite family recipes in highlighting my appreciating for cooking. 
+<p>
+    <!-- <img class="left" src="@/assets/website_screencap.jpg" width="50%" height="50%"/> -->
+    One of the first courses I had taught HTML, CSS and how to create and design a functional user   interface. I really enjoyed the balance of visual design and programming using tags while learning about internet protocols and communication. For this course’s final project I created a web page sharing some favourite family recipes in highlighting my appreciating for cooking. 
 </p>
         <br/>
 
