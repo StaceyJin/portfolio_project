@@ -48,43 +48,32 @@
     <div class = "right">
         <h4>UMCL Inventory Management System</h4>
 
-For our third year Final Project course, I am working on an external client project for Universal Marketing Co., Limited, a wholesale supplier of plumbing equipment situated overseas. The project is done using Spring Boot framework with Vue.js as the frontend framework. Developing this system using the Agile methodology and as part of a group effort has so far been a challenging yet fulfilling experience: from backend business logic programming to frontend user interface design along with unit, integration and end-to-end testing, this is my most complete full-stack experience to date.
-
-        <p class="right">
-            <!-- <img src = "/assets/website_screencap.JPG"> -->
-            <b>Insert pic here</b>
+        <p>
+            <img class="right" src = "@/assets/ecp.jpg" height="65%" width="65%">
+            For our third year Final Project course, I am working on an external client project for Universal Marketing Co., Limited, a wholesale supplier of plumbing equipment situated overseas. The project is done using Spring Boot framework with Vue.js as the frontend framework. 
+            <!-- Developing this system using the Agile methodology and as part of a group effort has so far been a challenging yet fulfilling experience: from backend business logic programming to frontend user interface design along with unit, integration and end-to-end testing, this is my most complete full-stack experience to date. -->
         </p>
     </div>
     <br/>
     <br/>
     <br/>
     <br/>
-    <br/>
-    <br/>
-    <div class = "left">
+    <div>
      <h4>Web Design and User Interface Experience</h4>
-One of the first courses I had taught HTML, CSS and how to create and design a functional user interface. I really enjoyed the balance of visual design and programming using tags while learning about internet protocols and communication. For this course’s final project I created a web page sharing some favourite family recipes in highlighting my appreciating for cooking. 
-
+<p><img class="left" src="@/assets/website_screencap.jpg" width="50%" height="50%"/>One of the first courses I had taught HTML, CSS and how to create and design a functional user   interface. I really enjoyed the balance of visual design and programming using tags while learning about internet protocols and communication. For this course’s final project I created a web page sharing some favourite family recipes in highlighting my appreciating for cooking. 
+</p>
         <br/>
-        <p class="left">
-            <!-- <img src = "/assets/website_screencap.JPG"> -->
-            <b>Insert pic here</b>
-        </p>
+
     </div>
-    <br/>
-    <br/>
     <br/>
     <br/>
     <br/>
     <br/>
     <div class = "right">
+        <p>
         <h4>Mobile Application Development</h4>
-There were a few courses dealing with application development with Android Studio and Xamarin. I appreciated being able to develop and demonstrate an application in a short amount of time and learning how to program a variety of functionalities and create components that we interact with every day on our mobile devices.
-
-        <br/>
-        <p class="right">
-            <!-- <img src = "/assets/website_screencap.JPG"> -->
-            <b>Insert pic here</b>
+        <img class="right" src="@/assets/meal_stash2.png"/><img class="right" src="@/assets/android1.jpg" height="32%" width="32%"/>
+        There were a few courses dealing with application development with Android Studio and Xamarin. I appreciated being able to develop and demonstrate an application in a short amount of time and learning how to program a variety of functionalities and create components that we interact with every day on our mobile devices.
         </p>
     </div>
     <br/>
@@ -95,14 +84,14 @@ There were a few courses dealing with application development with Android Studi
     <br/>
     <div class = "left">
         <h4>Game Development</h4> 
-
-        Written in C# using the Unity Development platform, Cupcake Escape was a final project for my second year Game Development course. This course was particularly enjoyable for me, having previous experience in video and film production, a lot of the programming concepts were easier to comprehend which made programming camera movement, lighting, object physics and other game functionality quite fun. To date, Cupcake Escape is one of the most fulfilling projects I have completed as the result practically matched the conceptual iteration and it is a fully functional game I programmed on my own.
-
-        <br/>
-        <p class="left">
-            <!-- <img src = "/assets/website_screencap.JPG"> -->
-            <b>Insert pic here</b>
+        <p>
+        <img src = "@/assets/cupcake_escape.jpg" height="60%" width="60%"/>
+        Written in C# using the Unity Development platform, Cupcake Escape was a final project for my second year Game Development course. 
+        <!-- This course was particularly enjoyable for me, having previous experience in video and film production, a lot of the programming concepts were easier to comprehend which made programming camera movement, lighting, object physics and other game functionality quite fun.  -->
+        To date, Cupcake Escape is one of the most fulfilling projects I have completed as the result practically matched the conceptual iteration and it is a fully functional game I programmed on my own.
         </p>
+        <br/>
+
     </div>
 </div>
 </template>
@@ -120,23 +109,13 @@ name: 'NewlyAcquiredPage'
     padding: 0% 10% 0% 10%;
     font-size: larger;
 }
-
+img {
+    float: left;
+    padding: 5%;
+}
 .right {
-    float:right;
-    /* max-height: 100px;
-    max-width: 100px; */
-    margin-right: 10%;
-    padding-left:10%;
-}
-.right.img {
-    float:right;
-    padding-left: 10%;
-}
-
-.left {
-    float:left;
-    margin-right: 10%;
-    padding-left:10%;
+    float: right;
+    padding: 5%;
 }
 table {
     align-content: center;
@@ -145,5 +124,6 @@ table {
 td.left {
     text-align: left;
 }
+
 
 </style>

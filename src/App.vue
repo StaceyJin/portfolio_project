@@ -21,7 +21,9 @@ export default {
   font-family: Bahnschrift;
   text-align: center;
   color: #311B92;
-  margin-top: 60px;
+  /* margin-top: 10%; */
+  padding-top: 5%;
+  padding-bottom: 10%;
   background-color: #EBE8E7;
 }
 </style>

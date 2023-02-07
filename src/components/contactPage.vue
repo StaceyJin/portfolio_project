@@ -6,12 +6,13 @@
     <br/>
     <br/>
     <div class="text">
-        Additional information regarding professional experience and education, please refer to my <a href="https://www.linkedin.com/in/stacey-jin">LinkedIn</a> profile.
-        <br/>
-        Contact can also be made through my LinkedIn profile.
+        Additional information regarding professional experience and education, please refer to my LinkedIn <a href="https://www.linkedin.com/in/stacey-jin"><img src="@/assets/linkedin.png" height="25" width="25"/></a> profile, where I can also be contacted.  
     <br/>    
     <br/>
-        For further reference, including links to work and projects, my <u>resume</u> is available for download. 
+        Please refer to my GitHub repository <a href="https://www.linkedin.com/in/stacey-jin"><img src="@/assets/github.png" height="25" width="25"/></a> for additional work and projects.
+    <br/>
+    <br/>
+        For further reference,  my <u>resume</u> is available for download. 
 
     </div>
 </template>
