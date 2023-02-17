@@ -1,5 +1,5 @@
 <template>
-    <h1>Newly Acquired Skills</h1>
+    <h1>Tech & Programming</h1>
     <div>
         <!-- This is where I list all my newly acquired skills. -->
     </div>
@@ -100,7 +100,7 @@
 
 <script>
 export default{
-name: 'NewlyAcquiredPage'
+name: 'TechPage'
 }
 </script>
 

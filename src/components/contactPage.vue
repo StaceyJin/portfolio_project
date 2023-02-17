@@ -12,14 +12,17 @@
         Please refer to my GitHub repository <a href="https://github.com/StaceyJin?tab=repositories"><img src="@/assets/github.png" height="25" width="25"/></a> for additional work and projects.
     <br/>
     <br/>
-        For further reference,  my <u>resume</u> is available for download. 
-
+        For further reference,  my <a href="/Stacey_Jin_CV.pdf"><u>resume</u></a> is available for download. 
     </div>
 </template>
 
 <script>
 export default{
-name: 'ContactPage'
+name: 'ContactPage',
+data(){
+    return {
+    } 
+}
 }
 </script>
 
