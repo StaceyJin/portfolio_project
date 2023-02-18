@@ -1,5 +1,5 @@
 <template>
-    <h1>Tech & Programming</h1>
+<h1>Tech & Programming</h1>
     <div>
         <!-- This is where I list all my newly acquired skills. -->
     </div>
@@ -61,7 +61,7 @@
     <div>
      <h4>Web Design and User Interface Experience</h4>
 <p>
-    <!-- <img class="left" src="@/assets/website_screencap.jpg" width="50%" height="50%"/> -->
+    <img class="left" src="@/assets/website_screencap.jpg" width="45%" height="45%"/>
     One of the first courses I had taught HTML, CSS and how to create and design a functional user   interface. I really enjoyed the balance of visual design and programming using tags while learning about internet protocols and communication. For this course’s final project I created a web page sharing some favourite family recipes in highlighting my appreciating for cooking. 
 </p>
         <br/>
@@ -70,10 +70,11 @@
     <br/>
     <br/>
     <br/>
-    <br/>
+
     <div class = "right">
-        <p>
+        
         <h4>Mobile Application Development</h4>
+        <p>
         <img class="right" src="@/assets/meal_stash2.png"/><img class="right" src="@/assets/android1.jpg" height="32%" width="32%"/>
         There were a few courses dealing with application development with Android Studio and Xamarin. I appreciated being able to develop and demonstrate an application in a short amount of time and learning how to program a variety of functionalities and create components that we interact with every day on our mobile devices.
         </p>
@@ -82,8 +83,7 @@
     <br/>
     <br/>
     <br/>
-    <br/>
-    <br/>
+
     <div class = "left">
         <h4>Game Development</h4> 
         <p>
@@ -100,7 +100,7 @@
 
 <script>
 export default{
-name: 'TechPage'
+name: 'NewlyAcquiredPage'
 }
 </script>
 
